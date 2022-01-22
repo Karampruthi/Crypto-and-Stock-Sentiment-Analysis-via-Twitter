@@ -18,7 +18,7 @@ api = tweepy.API(authorizer)
 # HEROKU DATABASE APP KARAMJOT
 engine = create_engine(f'{dialect}://{user_name}:{password}@{host}:{port}/{db_name}')
 
-NO_OF_TWEETS = 150
+NO_OF_TWEETS = 100
 
 
 ## getting tweets from twitter
