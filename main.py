@@ -1,3 +1,5 @@
+import time
+
 import pandas as pd
 from typing import List
 import tweepy
@@ -56,4 +58,6 @@ def Twitter():
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    Twitter()
+    time.sleep(1800)
     Twitter()
